@@ -1,0 +1,339 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/* body{
+  overflow-y: hidden;
+} */
+a{
+  color: #D9B448;
+}
+
+a:hover{
+  color: #BF784E;
+}
+
+
+header{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.home{
+  background-color: #e8d394;
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.homeBtns{
+  display: flex;
+  justify-content: center;
+}
+
+.signupBtn{
+  margin: 10px;
+}
+
+.signinBtn{
+  margin: 10px;
+}
+
+.petLine{
+  width: 80%;
+  margin: 0 10%;
+}
+
+.linksContainer{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+
+}
+
+.linkCard{
+  width: 25%;
+  display: flex;
+  max-width: 300px;
+  min-height: 160px;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.linkCard img{
+  width: 80%;
+  max-height: 120px;
+  max-width: 140px;
+  border-radius:50%;
+  border: 2px solid black;
+
+}
+
+.searchBar{
+  width: 60%;
+  margin: 0 20%;
+  display: flex;
+  justify-content: center;
+  gap: 10px
+}
+.searchBtn{
+  margin: 0;
+}
+
+.petCard{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: start;
+  display: flex;
+  justify-content: stretch;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.logoutBtn{
+  margin: 10px;
+}
+
+.backBtn{
+  font-size:15px ;
+  margin: 10px;
+}
+
+.petPage{
+  margin: 20px;
+  margin-left: 100px;
+}
+.petPage h3{
+  font-size: 22px;
+  transition: 0.4s;
+}
+
+button:disabled{
+  cursor: not-allowed;
+}
+
+.dashboardMenu img{
+  max-width: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.containerImg{
+  border-bottom: 1px solid black;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerImg button{
+  font-size: 14px;
+  padding: 3px;
+}
+
+.admin{
+  display: flex;
+  height: 100vh;
+}
+
+.dashboardMenu{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  gap: 50px;
+  padding: 0 0 400px;
+  height: 100%;
+  align-items: center;
+  background-color: #ddc98d;
+  position: fixed;
+  padding-top: 5px;
+}
+
+.dash2{
+  margin-left: 30%;
+}
+
+.dashboardMenu a{
+  color: black;
+}
+
+.dashboardMenu a:hover{
+  color: black;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.admin form{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 50%;
+  margin-left: 40%;
+  margin-right: 10%;
+  text-align: center;
+  gap: 10px;
+}
+
+.userList{
+  max-height: 100vh;
+  width: 50%;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 10%;
+}
+
+
+.petList{
+  width: 50%;
+  margin-left: 40%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.userPet{
+  width: 50%;
+  margin-left: 40%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.userCard{
+  width:80% ;
+  margin: 0 10%;
+}
+
+.modalLogin {
+ display: flex;
+ gap: 10px;
+ margin: 20px;
+ justify-content: center;
+}
+
+.modalSignup{
+display: flex;
+flex-direction: column;
+ gap: 10px;
+ margin: 20px;
+ justify-content: center;
+}
+
+.profilePage{
+  display: flex;
+flex-direction: column;
+ gap: 10px;
+ margin: 50px;
+ 
+}
+.loginTitle {
+  text-align: center;
+}
+.yourPets{
+  text-align: center;
+}
+.profileTitle{
+  text-align: center;
+}
+.signupTitle{
+  text-align: center;
+}
+.lollaLogin{
+  max-width: 400px;
+}
+.signupMila{
+  max-width: 300px;
+}
+.welcomeZoe{
+  max-width: 300px;
+}
+.welcome{
+  width: 50%;
+  margin-left: 40%;
+  margin-right: 10%;
+  text-align: center;
+}
+.loginDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signupDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.modalSignup form{
+  width: 100%;
+}
+.changePage{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  align-items: center;
+  margin: 40px;
+}
+.changeStatus{
+  margin: 10px;
+  font-size: 14px;
+  padding: 3px;
+}
+.map{
+  overflow: auto;
+}
+
+.petCard img{
+  max-width: 100%;
+  max-height: 200px;
+  margin: 0 auto;
+}
+.petPage img{
+  max-width: 50%;
+  max-height: 300px;
+  display: flex;
+  align-self: center;
+margin: 10px;
+}
+
+.petPageFlex{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.petPageColumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.petPage h1{
+  text-align: center;
+}
+
+.adoptBtns{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px
+}
+
+.adoptBtns button{
+  width: 100px;
+}
+
+.petCardSearch{
+  margin: 0 15%;
+}
